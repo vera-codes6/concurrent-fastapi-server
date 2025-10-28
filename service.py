@@ -1,7 +1,7 @@
 import asyncio
 import time
 from typing import Dict, Any, Callable, Optional
-from .model import CachedResult
+from model import CachedResult
 
 class AsyncRequestDeduplicationService:
     def __init__(self, cache_timeout: int = 300):  # 5 minutes

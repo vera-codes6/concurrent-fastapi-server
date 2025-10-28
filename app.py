@@ -1,7 +1,7 @@
 import asyncio
 import time
 from fastapi import FastAPI, HTTPException
-from .service import AsyncRequestDeduplicationService
+from service import AsyncRequestDeduplicationService
 
 # FastAPI application
 app = FastAPI()
